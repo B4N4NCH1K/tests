@@ -8,6 +8,13 @@ def my_code(magic_info):
             print(f'  {value}')
 
 my_code({
+    'first': 'first_value',
+    'second': 'second_value'
+})
+
+print(' ')
+
+my_code({
     '1': {
         'child': '1/child/value'
     },
